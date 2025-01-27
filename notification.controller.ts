@@ -3,7 +3,7 @@ import Notification from './../models/notification.model';
 import { HTTP_STATUS } from '../types/http-status-codes';
 import { Notification as NotificationType } from '../types/notification';
 
-// Cambio 1 - desde git
+// Cambio 1 - desde git - cambio de rama 1
 
 class notificationController {
     async create(req: Request, res: Response) {
