@@ -7,7 +7,7 @@ import { HTTP_STATUS } from '../types/http-status-codes';
 import { User as UserType } from '../types/user';
 const secretKey = process.env.JWT_SECRET;
 
-// Cambio 2
+// Cambio 2 - Cambios desde git 2
 
 class userController {
     async getAll(req: Request, res: Response) {
